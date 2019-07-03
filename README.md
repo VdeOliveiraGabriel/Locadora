@@ -29,6 +29,8 @@ $ node server
 
 ### Cadastro de usuários
 
+- POST /users/create_user 
+
 Requisição:
 
 ```json
@@ -42,7 +44,7 @@ Requisição:
 
 ### Login da aplicação
 
-POST /auth/login
+- POST /auth/login
 
 Requisição:
 
@@ -57,11 +59,11 @@ Esta requisição retornara um token, o qual deve ser enviado no headers com a c
 
 ### Listagem de filmes
 
-GET /movies/all
+- GET /movies/all
 
 ### Busca de filme pelo titulo
 
-Get /movies/:title
+- Get /movies/:title
 
 Titulo do filme deve ser passado por paramentro em :title.
 
@@ -72,6 +74,8 @@ Exemplo:
 ```
 
 ### Locar filme
+
+- POST /rent	
 
 Requisição:
 
@@ -84,6 +88,8 @@ Requisição:
 
 ### Devolver filme:
 
+- POST /rent/return
+
 Requisição:
 
 ```json
@@ -95,7 +101,7 @@ Requisição:
 
 ### Logout da aplicação
 
-POST /auth/logout
+- POST /auth/logout
 
 
 
