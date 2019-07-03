@@ -61,7 +61,7 @@ Esta requisição retornara um token, o qual deve ser enviado no headers com a c
 
 - GET /movies/all
 
-### Busca de filme pelo titulo
+### Busca de filme pelo título
 
 - Get /movies/:title
 
@@ -86,7 +86,7 @@ Requisição:
 }
 ```
 
-### Devolver filme:
+### Devolver filme
 
 - POST /rent/return
 
