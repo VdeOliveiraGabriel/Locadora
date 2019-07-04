@@ -3,7 +3,8 @@ O desafio:  - Você irá criar um sistema de uma locadora de filmes. O sistema d
 
 ## Banco de Dados
 
- Script SQL de criação localizado em dataBase/locadora.sql
+ - Script SQL de criação localizado em dataBase/locadora.sql.
+ - No arquivo .env estão as configurações de acesso ao banco de dados.
  
 ## Executar Aplicação
 
